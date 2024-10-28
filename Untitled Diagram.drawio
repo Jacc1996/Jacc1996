@@ -1,9 +1,172 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.3">
   <diagram name="Page-1" id="fBftOkDNL69hboDKaPT4">
-    <mxGraphModel>
+    <mxGraphModel dx="2643" dy="968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nEqumTZlBu66RCjfxVmd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#393C56;" edge="1" parent="1" source="nEqumTZlBu66RCjfxVmd-2" target="nEqumTZlBu66RCjfxVmd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-2" value="&lt;div&gt;&lt;b&gt;Usuario:&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Escribir o presionar&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;i&gt;/start&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;para iniciar bot&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="35" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-3" value="&lt;div&gt;&lt;b&gt;ChatBot:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Bienvenida&lt;/div&gt;&lt;div&gt;Ingresar Identificación&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="30" y="240" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-7" value="&lt;div&gt;&lt;b&gt;Usuario:&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Usuario Digita Identificación&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="35" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#393C56;" edge="1" parent="1" source="nEqumTZlBu66RCjfxVmd-3" target="nEqumTZlBu66RCjfxVmd-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="165" y="370" as="sourcePoint" />
+            <mxPoint x="205" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#393C56;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="369.66" as="sourcePoint" />
+            <mxPoint x="190" y="369.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-11" value="&lt;div&gt;&lt;b&gt;ChatBot:&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Condicional&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="190" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#393C56;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="nEqumTZlBu66RCjfxVmd-11" target="nEqumTZlBu66RCjfxVmd-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="554.71" y="400" as="sourcePoint" />
+            <mxPoint x="554.7385714285715" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="430" />
+              <mxPoint x="95" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-15" value="&lt;b&gt;NO cumple&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="78" y="405" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-16" value="&lt;b&gt;Si cumple&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="270" y="336" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#393C56;" edge="1" parent="1" source="nEqumTZlBu66RCjfxVmd-17" target="nEqumTZlBu66RCjfxVmd-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-17" value="&lt;div&gt;&lt;b&gt;ChatBot:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Seleccionar Área:&lt;/div&gt;&lt;div&gt;1. Ambiental&lt;/div&gt;&lt;div&gt;(ref) 2. Seguridad&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="315" y="340" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#393C56;" edge="1" parent="1" target="nEqumTZlBu66RCjfxVmd-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="369.86" as="sourcePoint" />
+            <mxPoint x="305" y="369.86" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="315" y="370" />
+              <mxPoint x="315" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#393C56;" edge="1" parent="1" source="nEqumTZlBu66RCjfxVmd-24" target="nEqumTZlBu66RCjfxVmd-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-24" value="&lt;div&gt;&lt;b&gt;Usuario:&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Digita el Número del a Area&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="317" y="430" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;" edge="1" parent="1" source="nEqumTZlBu66RCjfxVmd-28" target="nEqumTZlBu66RCjfxVmd-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-28" value="&lt;div&gt;&lt;b&gt;ChatBot:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Seleccionar Actividad:&lt;/div&gt;&lt;div&gt;1. Consumo&lt;/div&gt;&lt;div&gt;(ref) 2. Descarga&lt;/div&gt;&lt;div&gt;(ref) 3. Residuo Sólido&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="485" y="330" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#393C56;" edge="1" parent="1" source="nEqumTZlBu66RCjfxVmd-33" target="nEqumTZlBu66RCjfxVmd-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-33" value="&lt;div&gt;&lt;b&gt;Usuario:&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Digita el Número de la Actividad&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="487" y="430" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#393C56;" edge="1" parent="1" source="nEqumTZlBu66RCjfxVmd-34" target="nEqumTZlBu66RCjfxVmd-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-34" value="&lt;div&gt;&lt;b&gt;ChatBot:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Seleccionar Químico:&lt;/div&gt;&lt;div&gt;1. Soda&lt;/div&gt;&lt;div&gt;2. Acido Clorhidrico&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. Dioxido de Cloro&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="652.5" y="330" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#393C56;" edge="1" parent="1" source="nEqumTZlBu66RCjfxVmd-37" target="nEqumTZlBu66RCjfxVmd-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-37" value="&lt;div&gt;&lt;b&gt;Usuario:&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Digita el Número del Químico&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="655" y="430" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;" edge="1" parent="1" source="nEqumTZlBu66RCjfxVmd-41" target="nEqumTZlBu66RCjfxVmd-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-41" value="&lt;div&gt;&lt;b&gt;ChatBot:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Seleccionar Unidades:&lt;/div&gt;&lt;div&gt;1. PPM&lt;/div&gt;&lt;div&gt;2. kg&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="825" y="330" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#393C56;" edge="1" parent="1" source="nEqumTZlBu66RCjfxVmd-43" target="nEqumTZlBu66RCjfxVmd-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-43" value="&lt;div&gt;&lt;b&gt;Usuario:&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Digita el Número de la Unidad&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="827.5" y="430" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-45" value="&lt;div&gt;&lt;b&gt;ChatBot:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;(El chatbot le muestra al usuario las opciones seleccionadas y le pide confirmar)&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;1. Confirmar&lt;/div&gt;&lt;div&gt;2. Cancelar&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="995" y="385" width="130" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#393C56;" edge="1" parent="1" source="nEqumTZlBu66RCjfxVmd-47" target="nEqumTZlBu66RCjfxVmd-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#393C56;" edge="1" parent="1" source="nEqumTZlBu66RCjfxVmd-47" target="nEqumTZlBu66RCjfxVmd-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-47" value="&lt;div&gt;&lt;b&gt;Usuario:&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Condicional&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="1165" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#393C56;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1125" y="459.5" as="sourcePoint" />
+            <mxPoint x="1167" y="459.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#393C56;" edge="1" parent="1" source="nEqumTZlBu66RCjfxVmd-50" target="nEqumTZlBu66RCjfxVmd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-50" value="&lt;b&gt;INICIO&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="70" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#393C56;dashed=1;" edge="1" parent="1" source="nEqumTZlBu66RCjfxVmd-53" target="nEqumTZlBu66RCjfxVmd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;" edge="1" parent="1" source="nEqumTZlBu66RCjfxVmd-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1440" y="389" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-53" value="&lt;div&gt;&lt;b&gt;ChatBot:&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Solicitud Registrada en el Sistema. Para una nueva solicitud presione /Start&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="336" width="120" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#393C56;dashed=1;" edge="1" parent="1" source="nEqumTZlBu66RCjfxVmd-55" target="nEqumTZlBu66RCjfxVmd-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1320" y="590" />
+              <mxPoint x="-10" y="590" />
+              <mxPoint x="-10" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-55" value="&lt;div&gt;&lt;b&gt;ChatBot:&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Solicitud Cancelada&lt;/div&gt;&lt;div&gt;Vuelva a /Start&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-57" value="&lt;b&gt;Confirmar&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="366" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-58" value="&lt;b&gt;Cancelar&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="520" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-62" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="341" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-64" value="&lt;b&gt;Escritura en la Base de Datos&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="1425" y="420" width="90" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="nEqumTZlBu66RCjfxVmd-65" value="&lt;div&gt;{número de identificación,&lt;/div&gt;&lt;div&gt;actividad,&lt;/div&gt;&lt;div&gt;cantidad,&lt;/div&gt;&lt;div&gt;unidad,&lt;/div&gt;&lt;div&gt;quimico,&lt;/div&gt;&lt;div&gt;fecha y hora de carga}&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#393C56;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1520" y="385" width="160" height="67.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
